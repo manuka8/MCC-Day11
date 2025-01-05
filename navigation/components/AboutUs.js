@@ -34,3 +34,35 @@ export default function AboutUs() {
     );
 }
 
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        backgroundColor: '#fff',
+        justifyContent: 'space-between',
+        padding: 10
+    },
+    imagepad:{
+        padding: 8,
+         alignItems: 'center',
+        flex: 2,
+        marginBottom: 10
+    },
+    image:{
+        width: '80%',
+        height: 70,
+    },
+    body: {
+        padding: 8,
+        textAlign: 'justify',
+        flex: 6,
+    },
+    scrollView: {
+        flexGrow: 1, 
+    },
+    footer: {
+        flex: 2,
+        width: "100%",
+        alignItems: 'center',
+        marginTop:10
+    }
+});
