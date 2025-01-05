@@ -51,6 +51,6 @@ const styles = StyleSheet.create({
         textAlign: 'justify'
     },
     scrollView: {
-        flexGrow: 1, // Ensures the ScrollView behaves correctly
+        flexGrow: 1, 
     },
 });
